@@ -467,3 +467,62 @@ img {
 .swiper-pagination-bullet-active {
   background-color: var(--first-color);
 }
+
+
+/*=============== FEATURES SECTION ===============*/
+.features {
+  overflow: hidden;
+  position: relative;
+}
+.features_container {
+  padding-block-start: 2rem;
+  grid-template-columns: 285px;
+  justify-content: center;
+}
+.features_group {
+  display: grid;
+  position: relative;
+  z-index: 10;
+}
+.features_img {
+  inline-size: 150px;
+  justify-self: center;
+}
+.features_card {
+  inline-size: 112px;
+  background-color: hsla(0, 0%, 100%, .1);
+  backdrop-filter: blur(16px);
+  border-radius: 1.25rem;
+  padding: .75rem 2rem;
+  text-align: center;
+  color: var(--title-color);
+  position: absolute;
+}
+.features_card-1 {
+  inset-block-start: 4rem;
+  inset-inline-start: 1.5rem;
+}
+.features_card-2 {
+  inset-block-start: 8rem;
+  inset-inline-end: 1rem;
+}
+.features_card-3 {
+  inset-inline-start: 1.5rem;
+  inset-block-end: 2rem;
+}
+.features_card-title {
+  font-size: var(--h3-font-size);
+  margin-block-end: .25rem;
+}
+.features_card-description {
+  font-size: var(--smaller-font-size);
+}
+.features_map {
+  max-inline-size: initial;
+  inline-size: 450px;
+  position: absolute;
+  inset-block-start: 8rem;
+  inset-inline-start: -3rem;
+  margin: auto;
+  transform: rotate(-22deg);
+}
